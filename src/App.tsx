@@ -297,7 +297,7 @@ function App() {
 
       {/* Desktop Navigation */}
       <nav className="hidden lg:flex justify-between items-center px-8 py-6">
-        <div className="text-2xl font-bold text-white">SnapAi</div>
+        <div className="text-2xl font-bold text-white">ImagePro</div>
         <div className="flex space-x-8">
           <a href="#features" className="text-gray-300 hover:text-white transition-colors">Features</a>
           <a href="#tools" className="text-gray-300 hover:text-white transition-colors">Tools</a>
@@ -367,7 +367,7 @@ function App() {
 
       {/* Tool Selection */}
       <div id="tools" className="container mx-auto px-4 py-8">
-        <div className="flex justify-center space-x-4 mb-8">
+        <div className="flex flex-wrap justify-center gap-4 mb-8">
           <button
             onClick={() => setSelectedTool('bgremove')}
             className={`px-6 py-3 rounded-lg font-medium transition-colors ${
@@ -643,7 +643,7 @@ function App() {
               <ul className="space-y-3">
                 <li className="flex items-center space-x-3 text-gray-400">
                   <Mail className="w-5 h-5" />
-                  <span>support@imagepro.com</span>
+                  <span>support@snapai.com</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-400">
                   <Phone className="w-5 h-5" />
