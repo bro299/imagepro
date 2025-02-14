@@ -297,7 +297,7 @@ function App() {
 
       {/* Desktop Navigation */}
       <nav className="hidden lg:flex justify-between items-center px-8 py-6">
-        <div className="text-2xl font-bold text-white">ImagePro</div>
+        <div className="text-2xl font-bold text-white">SnapAi</div>
         <div className="flex space-x-8">
           <a href="#features" className="text-gray-300 hover:text-white transition-colors">Features</a>
           <a href="#tools" className="text-gray-300 hover:text-white transition-colors">Tools</a>
@@ -595,7 +595,7 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {/* Company Info */}
             <div className="space-y-4">
-              <h3 className="text-2xl font-bold text-white">ImagePro</h3>
+              <h3 className="text-2xl font-bold text-white">SnapAi</h3>
               <p className="text-gray-400 text-sm">
                 Transform your images with professional tools powered by cutting-edge AI technology.
               </p>
@@ -679,7 +679,7 @@ function App() {
           <div className="mt-12 pt-8 border-t border-gray-800">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <p className="text-gray-400 text-sm">
-                © 2025 ImagePro. All rights reserved.
+                © 2025 SnapAi. All rights reserved.
               </p>
               <div className="flex space-x-6 mt-4 md:mt-0">
                 <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Privacy Policy</a>
